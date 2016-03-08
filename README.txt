@@ -17,4 +17,18 @@ Go ahead and get your tree
 
 git checkout <your-name>
 
+If a major change happens to master, then we go ahead and merge. If we merge, 
+please use 
 
+git pull origin master
+
+In order to save your work, and contribute your code, please use
+ 
+git add .
+git commit -m "The commit message"
+git push origin <your name branch>
+
+DO NOT PUSH TO MASTER.
+
+Please read https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+on how to write your commits. 
